@@ -30,6 +30,10 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
+# Used to enable Auth0 authentication
+gem "omniauth-auth0", "~> 3.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0" # prevents forged authentication requests
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
