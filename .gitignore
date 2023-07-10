@@ -6,7 +6,7 @@
 
 .DS_Store
 
-/config/auth0.yml
+config/auth0.yml
 
 # Ignore bundler config.
 /.bundle
