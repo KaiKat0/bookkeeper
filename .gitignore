@@ -4,9 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+#Mac File to ignore
 .DS_Store
-
-config/auth0.yml
 
 # Ignore bundler config.
 /.bundle
@@ -37,3 +36,4 @@ config/auth0.yml
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/auth0.yml
